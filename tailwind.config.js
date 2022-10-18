@@ -27,9 +27,11 @@ module.exports = {
         '18' : '4.5rem'        
       },
       colors:{
-        'light': '#9A9A9A'
+        'light': '#9A9A9A',
+        'primary': '#202124',
       }
     },
+    
   },
   plugins: [],
 }
