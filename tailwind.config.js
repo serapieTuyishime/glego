@@ -19,6 +19,7 @@ module.exports = {
         '0\.5sm': ['13px', {
           lineHeight: '14px' 
         }],
+        
       },
       width: {
         '18' : '4.5rem'        
@@ -29,7 +30,10 @@ module.exports = {
       colors:{
         'light': '#9A9A9A',
         'primary': '#202124',
-      }
+      },
+      textUnderlineOffset: {
+        16: '16px',
+      },
     },
     
   },
