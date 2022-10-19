@@ -10,28 +10,28 @@
 </head>
 <body>
     <div class="hidden sm:flex justify-end h-4 sm:h-10 text-4xs sm:text-sm m-2 items-center gap-2 sm:gap-4 sm:m-4">
-        <div class="hover:underline">Gmail</div>
-        <div class="hover:underline">Images</div>
+        <a href="#"><div class="hover:underline">Gmail</div></a>
+        <a href="#"><div class="hover:underline">Images</div></a>
         <div class="h-full w-4  sm:w-10  flex items-center justify-center hover:bg-gray-300 rounded-full">
-            <span class="text-xs sm:text-2xl text-light material-icons ">apps</span>
+            <a href="#"><span class="text-xs sm:text-2xl text-light material-icons ">apps</span></a>
         </div>
         <div class="h-full w-4 items-center sm:w-10 overflow-hidden rounded-full border-4 border-white hover:border-gray-300 ">
-            <img class="h-full w-full object-contain" src="./img/Serapie.png">
+            <a href="#"><img class="h-full w-full object-contain" src="./img/Serapie.png"></a>
         </div>
     </div>
     <div class="w-full h-16 px-2 sm:hidden flex justify-between items-center text-gray-500 font-bold uppercase text-xs">
         <div class="flex items-center gap-4">
             <span class="material-icons">menu</span>
-            <label class="text-blue-500  hover:after:hidden after:inline-block relative after:absolute after:w-full after:h-0.5 after:bg-blue-500 after:bottom-0 after:left-0 after:translate-y-2 p-2">All</label>
+            <a href="#"><label class="text-blue-500  hover:after:hidden after:inline-block relative after:absolute after:w-full after:h-0.5 after:bg-blue-500 after:bottom-0 after:left-0 after:translate-y-2 p-2">All</label></a>
 
-            <label class="text-gray-500 hover:text-blue-500 after:hidden hover:after:inline-block relative after:absolute after:w-full after:h-0.5 after:bg-blue-500 after:bottom-0 after:left-0 after:translate-y-2 p-2">Images</label>
+            <a href="#"><label class="text-gray-500  p-2">Images</label></a>
         </div>
         <div class="flex items-center gap-6">
-            <div class="h-full w-4  sm:w-10  flex items-center justify-center hover:bg-gray-300 rounded-full">
-                <span class="text-2xl text-gray-500 material-icons ">apps</span>
+            <div class="h-full w-8  flex items-center justify-center hover:bg-gray-300 rounded-full">
+                <a href="#"><label class="text-2xl text-gray-500 material-icons ">apps</label></a>
             </div>
-            <div class="h-full w-10 items-center overflow-hidden rounded-full border-4 border-white hover:border-gray-300 ">
-                <img class="h-full w-full object-contain" src="./img/Serapie.png">
+            <div class="h-full w-10 items-center overflow-hidden rounded-full border-4 border-white  hover:border-gray-300 ">
+                <a href="#"><img class="h-full w-full object-contain" src="./img/Serapie.png"></a>
             </div>
         </div>
     </div>
@@ -39,7 +39,7 @@
         <div class="h-12 sm:h-24 w-3/4">
             <img class="h-full w-full object-contain" src="./img/logo.PNG">
         </div>
-        <div class="flex border rounded-full hover:shadow-lg shadow-gray-500/50 px-1 h-10 sm:h-12 items-center w-11/12 xl:w-1/2 ">
+        <div class="flex border rounded-full  ring-2 ring-transparent hover:ring-slate-100 hover:border-none hover:shadow-lg shadow-gray-500/50 px-1 h-10 sm:h-12 items-center w-11/12 xl:w-1/2 ">
             <div class="h-4/5 w-1/12 flex items-center justify-center">
                 <span class="material-icons text-0.5sm sm:text-3xl text-light">search</span>
             </div>
@@ -55,12 +55,12 @@
             <button class="px-4 py-1 sm:py-2 text-4xs border-gray-100 sm:text-sm capitalize bg-gray-100 text-primary rounded-sm hover:drop-shadow-sm border hover:border-gray-300 shadow-slate-200 ">Google search</button>
             <button class="px-4 py-1 sm:py-2 text-4xs border-gray-100 sm:text-sm capitalize bg-gray-100 text-primary rounded-sm hover:drop-shadow-sm border hover:border-gray-300 shadow-slate-200">I'm feeling lucky</button>
         </div>
-        <div class="text-sm sm:text-2xs flex gap-4">
+        <div class="text-sm flex gap-4">
             <label class="">Google offered in: </label>
             <label class="flex gap-2">
-                <span class="text-blue-800">Francais</span>
-                <span class="text-blue-800">Swahili</span>
-                <span class="text-blue-800">Ikinyarwanda</span>
+                <span class="text-blue-800 hover:underline"><a href="#">Francais</a></span>
+                <span class="text-blue-800  hover:underline"><a href="#">Swahili</a></span>
+                <span class="text-blue-800  hover:underline"><a href="#">Ikinyarwanda</a></span>
             </label>
         </div> 
     </div>
@@ -68,15 +68,15 @@
         <div class="p-2 sm:p-4 flex items-center h-4 text-base border-b pb-4">Rwanda</div>
         <div class="border-t flex flex-col md:flex-row justify-around sm:justify-between items-center gap-4 sm:gap-6 p-3">
             <div class="flex gap-4 sm:gap-8 content-center ">
-                <label class="hover:underline">About</label>
-                <label class="hover:underline">Advertizing</label>
-                <label class="hover:underline">Business</label>
-                <label class="hover:underline">How search works</label>
+                <label class="hover:underline"><a href="#">About</a></label>
+                <label class="hover:underline"><a href="#">Advertizing</a></label>
+                <label class="hover:underline"><a href="#">Business</a></label>
+                <label class="hover:underline"><a href="#">How search works</a></label>
             </div>
             <div class="flex gap-4 sm:gap-8 content-center ">
-                <label class="hover:underline">Privacy</label>
-                <label class="hover:underline">Terms</label>
-                <label class="hover:underline">Settings</label>
+                <label class="hover:underline"><a href="#">Privacy</a></label>
+                <label class="hover:underline"><a href="#">Terms</a></label>
+                <label class="hover:underline"><a href="#">Settings</a></label>
             </div>
         </div>
     </div>  
